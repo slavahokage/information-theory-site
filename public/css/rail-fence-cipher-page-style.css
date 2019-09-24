@@ -1,0 +1,42 @@
+
+#rail-fence-title {
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+#encrypt-btn {
+    margin-left: 30%;
+}
+
+#decrypt-btn {
+    margin-left: 46%;
+}
+
+@media (max-width: 411px) {
+    #rail-fence-title {
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    #decrypt-btn {
+        margin-left: 34%;
+    }
+}
+
+@media (max-width: 414px) {
+    #rail-fence-title {
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    #decrypt-btn {
+        margin-left: 34%;
+    }
+}
+
+@media (max-width: 320px) {
+    .center {
+        width: 100%;
+        font-size: 12px;
+    }
+}

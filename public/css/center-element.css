@@ -1,0 +1,34 @@
+
+.row {
+    margin-top: 10px;
+}
+
+.center {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 100%;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width: 411px) {
+    .center {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .center {
+        width: 100%;
+        font-size: 12px;
+    }
+}
